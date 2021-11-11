@@ -5,9 +5,34 @@
 <title>Título de la aplicación</title>
 <script src="codigo.js"></script>
 <link rel="stylesheet" href="estilos.css"/>
+<button onclick="addItem()">
 </head>
 <body>
+    <div>
+        <label for="input">Número: </label><input type="text"
+        id="input"/>
+        <label for="options">Tipo</label>
+        <select id="options">
+        <option>option 1</option>
+        <option>option 2</option>
+        <option>option 3</option>
+        <option>option 4</option>
+        <option>option 5</option>
+        </select>
+        <button>Insertar</button>
+        </div>
+        
 <div>
+    <table>
+        <thead>
+        <tr>
+        <td>Tipo</td>
+        <td>Cantidad</td>
+        </tr>
+        </thead>
+        <tbody id="items">
+        </tbody>
+        </table>
 Hello World!!
 </div>
 </body>
